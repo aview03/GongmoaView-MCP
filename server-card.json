@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "protocolVersion": "2025-06-18",
+  "serverInfo": {
+    "name": "gongmoaview",
+    "title": "공모아뷰",
+    "version": "1.0.0"
+  },
+  "description": "공모전·대외활동·교육 공고를 여러 사이트에서 모아 비교하는 공모아뷰의 읽기 전용 공고 검색. 결과는 공모아뷰 공고 페이지 링크.",
+  "documentationUrl": "https://www.gongmoaview.com/llms.txt",
+  "transport": {
+    "type": "streamable-http",
+    "endpoint": "/mcp"
+  },
+  "capabilities": {
+    "tools": {
+      "listChanged": false
+    }
+  },
+  "authentication": {
+    "required": false
+  }
+}
